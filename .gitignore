@@ -1,0 +1,13 @@
+# Dependências (O que o npm install gera)
+node_modules/
+
+# Arquivos de log e erro
+npm-debug.log*
+
+# Pastas de distribuição (O site pronto)
+dist/
+build/
+
+# Configurações locais e segredos
+.env
+.vscode/

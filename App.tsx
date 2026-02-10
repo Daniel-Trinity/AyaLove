@@ -114,7 +114,7 @@ const App: React.FC = () => {
             <h2 className="text-3xl md:text-5xl font-bold mb-8 heading-font">
               Technology, Spirituality & Art
             </h2>
-            <p className="text-2xl md:text-3xl font-light italic text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 mb-6">
+            <p className="text-2xl md:text-3xl font-light italic text-transparent bg-clip-text bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200 mb-6">
               "Let's love technology, spirituality and art to elevate the human experience."
             </p>
             <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
@@ -162,7 +162,7 @@ const App: React.FC = () => {
             />
             <NeonButton 
               label="Email Us" 
-              href="mailto:danieldeassistrindade@gmail.com" 
+              href="mailto:portal@ayalove.org" 
               Icon={Mail}
               primaryColor="#EA4335"
               glowColor="#EA4335"
@@ -174,11 +174,11 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="py-12 border-t border-white/10 bg-black/80 backdrop-blur-lg relative z-10">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} AyaLove.org. All rights reserved.
+          <p className="text-gray-300 text-sm">
+            © {new Date().getFullYear()} AyaLove.org
           </p>
-          <div className="mt-4 flex justify-center gap-4 text-gray-600 text-xs uppercase tracking-widest">
-            <span>Love</span> • <span>Light</span> • <span>Knowledge</span>
+          <div className="mt-4 flex justify-center gap-4 text-gray-400 text-xs uppercase tracking-widest">
+            <span>Love</span> • <span>Light</span> • <span>Liberty</span>
           </div>
         </div>
       </footer>

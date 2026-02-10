@@ -20,7 +20,7 @@ const PillarCard: React.FC<PillarProps> = ({ title, description, Icon, color }) 
           <Icon size={40} style={{ color: color }} />
         </div>
         <h3 className="text-2xl font-bold mb-4 text-white tracking-wider heading-font">{title}</h3>
-        <p className="text-gray-300 font-light leading-relaxed">{description}</p>
+        <p className="text-gray-200 font-normal leading-relaxed">{description}</p>
       </div>
     </div>
   );

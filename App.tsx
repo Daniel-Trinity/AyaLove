@@ -18,15 +18,9 @@ import { PillarProps } from './types';
 const pillars: PillarProps[] = [
   {
     title: "Study Ayahuasca",
-    description: "Deep dive into the history, botany, and pharmacology of the sacred medicine.",
+    description: "Dive into the history, botany, and pharmacology of the Sacred Medicine.",
     Icon: Brain,
     color: "#d946ef" // Fuchsia
-  },
-  {
-    title: "Understand",
-    description: "Integrate the lessons. Make sense of the visions and feelings.",
-    Icon: Sparkles,
-    color: "#8b5cf6" // Violet
   },
   {
     title: "Connect",
@@ -41,6 +35,12 @@ const pillars: PillarProps[] = [
     color: "#22c55e" // Green
   },
   {
+    title: "Understand",
+    description: "Integrate the information. Make sense of the visions and feelings.",
+    Icon: Sparkles,
+    color: "#8b5cf6" // Violet
+  },
+  {
     title: "Share Experiences",
     description: "A safe space to recount your journeys and be heard without judgment.",
     Icon: Share2,
@@ -48,7 +48,7 @@ const pillars: PillarProps[] = [
   },
   {
     title: "Take Mentorship",
-    description: "Dedicated guidance from experienced practitioners.",
+    description: "Dedicated orientation from passionate practitioners with more than 30 years of Ayahuasca experience.",
     Icon: Heart,
     color: "#ef4444" // Red
   }
@@ -96,7 +96,7 @@ const App: React.FC = () => {
           </h1>
           
           <p className="text-xl md:text-2xl font-light text-gray-200 leading-relaxed max-w-2xl mx-auto">
-            "Here you can deepen your understanding of Ayahuasca, connect with communities and share your experience."
+            Deepen your understanding of Ayahuasca, connect with communities and share your experience."
           </p>
 
           <div className="pt-8">
@@ -145,27 +145,28 @@ const App: React.FC = () => {
         
         <div className="container mx-auto px-6 relative z-10">
           <h2 className="text-5xl md:text-7xl font-bold mb-12 text-white heading-font">
-            Join the Circle
+            Join the Momentum
           </h2>
           <p className="text-xl text-gray-300 mb-16 max-w-2xl mx-auto">
-            Ready to start your journey? Connect with us directly through Discord or Email.
-            We are here to guide you.
+            Ready to continue? Connect with us directly through Email.<br /> 
+            Join our Discord to chat and find more info.
+            We are here to support you.
           </p>
           
           <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
-            <NeonButton 
-              label="Join Discord" 
-              href="https://discord.com/invite/bnn5HksBPK" 
-              Icon={Disc} // Using Disc as a placeholder for Discord-like icon if generic
-              primaryColor="#5865F2"
-              glowColor="#5865F2"
-            />
             <NeonButton 
               label="Email Us" 
               href="mailto:portal@ayalove.org" 
               Icon={Mail}
               primaryColor="#EA4335"
               glowColor="#EA4335"
+            />
+            <NeonButton 
+              label="Join Discord" 
+              href="https://discord.com/invite/bnn5HksBPK" 
+              Icon={Disc} // Using Disc as a placeholder for Discord-like icon if generic
+              primaryColor="#5865F2"
+              glowColor="#5865F2"
             />
           </div>
         </div>
@@ -177,7 +178,7 @@ const App: React.FC = () => {
           <p className="text-gray-300 text-sm">
             © {new Date().getFullYear()} AyaLove.org
           </p>
-          <div className="mt-4 flex justify-center gap-4 text-gray-400 text-xs uppercase tracking-widest">
+          <div className="mt-4 flex justify-center gap-4 text-gray-300 text-xs uppercase tracking-widest">
             <span>Love</span> • <span>Light</span> • <span>Liberty</span>
           </div>
         </div>

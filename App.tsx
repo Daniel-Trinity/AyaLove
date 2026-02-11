@@ -6,7 +6,11 @@ import {
   ShieldCheck, 
   Share2, 
   Puzzle,
+<<<<<<< HEAD
   Key-round, 
+=======
+  KeyRound, 
+>>>>>>> e709a97574e5a2f67b5fcfef112a2cf14ece7406
   Mail, 
   Disc, 
   ChevronDown 
@@ -50,7 +54,11 @@ const pillars: PillarProps[] = [
   {
     title: "Take Mentorship",
     description: "Dedicated orientation from passionate practitioners with more than 33 years of Ayahuasca experience.",
+<<<<<<< HEAD
     Icon: Key-round,
+=======
+    Icon: KeyRound,
+>>>>>>> e709a97574e5a2f67b5fcfef112a2cf14ece7406
     color: "#ef4444" // Red
   }
 ];

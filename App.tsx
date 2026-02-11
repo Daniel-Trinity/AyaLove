@@ -5,7 +5,8 @@ import {
   Users, 
   ShieldCheck, 
   Share2, 
-  Sparkles, 
+  Puzzle,
+  KeyRound, 
   Mail, 
   Disc, 
   ChevronDown 
@@ -37,7 +38,7 @@ const pillars: PillarProps[] = [
   {
     title: "Understand",
     description: "Integrate the information. Make sense of the visions, feelings and thoughts.",
-    Icon: Sparkles,
+    Icon: Puzzle,
     color: "#8b5cf6" // Violet
   },
   {
@@ -49,7 +50,7 @@ const pillars: PillarProps[] = [
   {
     title: "Take Mentorship",
     description: "Dedicated orientation from passionate practitioners with more than 33 years of Ayahuasca experience.",
-    Icon: Heart,
+    Icon: KeyRound,
     color: "#ef4444" // Red
   }
 ];
@@ -112,13 +113,13 @@ const App: React.FC = () => {
         <div className="container mx-auto px-6 text-center">
           <div className="glass-panel p-12 rounded-[3rem] max-w-5xl mx-auto border border-fuchsia-500/30 shadow-[0_0_50px_rgba(217,70,239,0.1)]">
             <h2 className="text-3xl md:text-5xl font-bold mb-8 heading-font">
-              The Integration Point
+              Integration Point
             </h2>
             <p className="text-2xl md:text-3xl font-light italic text-transparent bg-clip-text bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200 mb-6">
-              "We mix technology, spiritual insight, and creative expression to unlock the human potential."
+              "The right mix of technology, spiritual insight, and creative expression can unlock the human potential."
             </p>
             <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
-              We offer dedicated mentorship and the opportunity to participate in unique ceremonies in Rio. 
+              We offer 100% dedicated mentorship and the opportunity to participate in unique ceremonies in Rio. 
               Bridging the gap between ancient wisdom and modern life.
             </p>
           </div>

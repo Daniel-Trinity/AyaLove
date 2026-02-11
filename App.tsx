@@ -30,13 +30,13 @@ const pillars: PillarProps[] = [
   },
   {
     title: "Drink Safely",
-    description: "Guidance on experiencing, set, setting, and contraindications.",
+    description: "Technical instructions on experiencing, set, setting, and contraindications.",
     Icon: ShieldCheck,
     color: "#22c55e" // Green
   },
   {
     title: "Understand",
-    description: "Integrate the information. Make sense of the visions and feelings.",
+    description: "Integrate the information. Make sense of the visions, feelings and thoughts.",
     Icon: Sparkles,
     color: "#8b5cf6" // Violet
   },
@@ -48,7 +48,7 @@ const pillars: PillarProps[] = [
   },
   {
     title: "Take Mentorship",
-    description: "Dedicated orientation from passionate practitioners with more than 30 years of Ayahuasca experience.",
+    description: "Dedicated orientation from passionate practitioners with more than 33 years of Ayahuasca experience.",
     Icon: Heart,
     color: "#ef4444" // Red
   }
@@ -88,15 +88,15 @@ const App: React.FC = () => {
         <div className="max-w-4xl mx-auto space-y-8 z-10 p-10 glass-panel rounded-3xl border-t border-white/20 shadow-[0_0_100px_rgba(139,92,246,0.3)]">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-2">
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-300 via-purple-300 to-indigo-300 drop-shadow-[0_0_15px_rgba(216,180,254,0.5)]">
-              Elevate the
+              Elevate Your
             </span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-emerald-300 to-green-300 drop-shadow-[0_0_15px_rgba(110,231,183,0.5)]">
-              Human Experience
+              Ayahuasca Experience
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl font-light text-gray-200 leading-relaxed max-w-2xl mx-auto">
-            Deepen your understanding of Ayahuasca, connect with communities and share your experience."
+            Deepen your understanding, connect with communities and access one of the purest Ayahuascas on Earth.
           </p>
 
           <div className="pt-8">
@@ -112,14 +112,14 @@ const App: React.FC = () => {
         <div className="container mx-auto px-6 text-center">
           <div className="glass-panel p-12 rounded-[3rem] max-w-5xl mx-auto border border-fuchsia-500/30 shadow-[0_0_50px_rgba(217,70,239,0.1)]">
             <h2 className="text-3xl md:text-5xl font-bold mb-8 heading-font">
-              Technology, Spirituality & Art
+              The Integration Point
             </h2>
             <p className="text-2xl md:text-3xl font-light italic text-transparent bg-clip-text bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200 mb-6">
-              "Let's love technology, spirituality and art to elevate the human experience."
+              "We mix technology, spiritual insight, and creative expression to unlock the human potential."
             </p>
             <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
-              We offer dedicated mentorship and the opportunity to participate in modern ceremonies. 
-              Bridging the gap between ancient wisdom and modern understanding.
+              We offer dedicated mentorship and the opportunity to participate in unique ceremonies in Rio. 
+              Bridging the gap between ancient wisdom and modern life.
             </p>
           </div>
         </div>
@@ -148,8 +148,8 @@ const App: React.FC = () => {
             Join the Momentum
           </h2>
           <p className="text-xl text-gray-300 mb-16 max-w-2xl mx-auto">
-            Ready to continue? Connect with us directly through Email.<br /> 
-            Join our Discord to chat and find more info.
+            Ready to continue? Connect directly through Email.<br /> 
+            Join Discord to chat and find more information.<br /><br />
             We are here to support you.
           </p>
           

@@ -6,11 +6,7 @@ import {
   ShieldCheck, 
   Share2, 
   Puzzle,
-<<<<<<< HEAD
-  Key-round, 
-=======
   KeyRound, 
->>>>>>> e709a97574e5a2f67b5fcfef112a2cf14ece7406
   Mail, 
   Disc, 
   ChevronDown 
@@ -47,20 +43,16 @@ const pillars: PillarProps[] = [
   },
   {
     title: "Share Experiences",
-    description: "A safe space to recount your journeys and be heard without judgment.",
+    description: "A safe space to chat, recount your journeys and be heard without judgment.",
     Icon: Share2,
     color: "#f59e0b" // Amber
   },
-  {
-    title: "Take Mentorship",
-    description: "Dedicated orientation from passionate practitioners with more than 33 years of Ayahuasca experience.",
-<<<<<<< HEAD
-    Icon: Key-round,
-=======
-    Icon: KeyRound,
->>>>>>> e709a97574e5a2f67b5fcfef112a2cf14ece7406
-    color: "#ef4444" // Red
-  }
+{
+  title: "Take Mentorship",
+  description: "Dedicated orientation from passionate practitioners with more than 33 years of Ayahuasca experience.",
+  Icon: KeyRound,
+  color: "#ef4444" // Red
+}
 ];
 
 const App: React.FC = () => {
@@ -124,10 +116,10 @@ const App: React.FC = () => {
               Integration Point
             </h2>
             <p className="text-2xl md:text-3xl font-light italic text-transparent bg-clip-text bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200 mb-6">
-              "The right mix of technology, spiritual insight, and creative expression can unlock the human potential."
+              "Consecrating Ayahuasca of the future, honoring courage of elders."
             </p>
             <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
-              We offer 100% dedicated mentorship and the opportunity to participate in unique ceremonies in Rio. 
+              We offer 100% dedicated mentorship and the opportunity to participate in unique English ceremonies in Rio de Janeiro. 
               Bridging the gap between ancient wisdom and modern life.
             </p>
           </div>

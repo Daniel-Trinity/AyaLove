@@ -97,7 +97,7 @@ const App: React.FC = () => {
           </h1>
           
           <p className="text-xl md:text-2xl font-light text-gray-200 leading-relaxed max-w-2xl mx-auto">
-            Deepen your understanding, connect with communities and access one of the purest Ayahuascas on Earth.
+            Deepen your understanding, connect with communities and drink one of the purest Ayahuascas on Earth.
           </p>
 
           <div className="pt-8">
@@ -125,7 +125,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </section>
-
+<br /><br /><br /><br /><br /><br />
       {/* Pillars Grid */}
       <section id="pillars" className="py-20 relative z-10">
         <div className="container mx-auto px-6">
